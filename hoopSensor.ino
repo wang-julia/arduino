@@ -24,7 +24,7 @@ double distance()
 
   duration = pulseIn(echoPin, HIGH);
 
-  return (duration/2) / 29.1; //in cm
+  return (duration/2) / 29.1; //distance in cm
 }
 
 boolean detectShot()
